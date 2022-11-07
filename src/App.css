@@ -1,12 +1,25 @@
+ 
 .App {
-  display: flex;
+margin: 0 auto;
+  background-color: transparent;
+  display: inline-block;
+  /* display: column; */
+  /* justify-content: center;
+  align-items: center; */
   text-align: center;
 }
 
-
+.search-box { 
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
 
 .box {
-  display: inline-block;
+  width: 500px;
+  height: 300px;
+  /* display: inline-block; */
   margin: 10px;
   border : 2px solid #333;
   border-radius : 5px;
@@ -25,9 +38,13 @@ h1,h2,h3 {
   padding: 10px;
   
 }
-.App-link {
-  color: #61dafb;
+h1 {
+  color :#921
 }
+h2 {
+  color : #526
+}
+
 
 @keyframes App-logo-spin {
   from {
