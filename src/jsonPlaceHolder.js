@@ -14,4 +14,5 @@ Promise.all(
   //url we typed wrong or the request did not return
   .catch(() => {
     console.log(`error`);
-  });
+  })
+  .finally(() => console.log(`Extra`))
