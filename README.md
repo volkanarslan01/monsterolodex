@@ -1,2 +1,2 @@
-# monsterRolodex
-Original Made By: Andrei Neagoie
+# monsters-rolodex with Class Components
+Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)

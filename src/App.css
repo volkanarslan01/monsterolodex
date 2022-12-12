@@ -1,56 +1,22 @@
- 
-.App {
-margin: 0 auto;
-  background-color: transparent;
-  display: inline-block;
-  /* display: column; */
-  /* justify-content: center;
-  align-items: center; */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
   text-align: center;
 }
-
-.search-box { 
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  margin: 10px;
-}
-
-.box {
-  width: 500px;
-  height: 300px;
-  /* display: inline-block; */
-  margin: 10px;
-  border : 2px solid #333;
-  border-radius : 5px;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-h1,h2,h3 {
-  padding: 10px;
-  
-}
-h1 {
-  color :#921
-}
-h2 {
-  color : #526
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-title{
+  margin-top:75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  color:#0ccac4;
+  font-family: 'Bigelow Rules';
 }
